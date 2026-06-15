@@ -1,0 +1,127 @@
+.github/
+.vscode/
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders
+/ios
+/android
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.next/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+
+
+
+alembic.ini
+__pycache__/
+myenv/
+android/
+
+scripts/
+populate_admin.py
+
+alem
+
+QR_CODE.jpg
+
+phones.csv
+final_mobile_master_data.csv
+build/
+/Images/
+
+Images_Seeder.py
+phone_image_downloader.py
+Images.zip
+phones_list.csv
+
+dist.zip
+!/customer-app/assets/
+!/customer-app/assets/images/
+!/customer-app/assets/images/*
+!/app/assets/images/
+!/app/assets/images/*
+
+# Python
+venv/
+.venv/
+env/
+ENV/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python build files
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database
+*.db
+*.sqlite3

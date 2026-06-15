@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+venv/
+ENV/
+env/
+.venv/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Environment
+.env
+.env.*
+
+# SQLite / DB files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+alembic.ini
